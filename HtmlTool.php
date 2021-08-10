@@ -34,4 +34,29 @@ class HtmlTool
         }
         return $s;
     }
+
+
+    /**
+     * Renders the html list from the given array.
+     *
+     * Available options are:
+     * - listType: string (ul|ol)=ul, the html tag for the list
+     *
+     *
+     *
+     *
+     * @param array $arr
+     * @param array $options
+     * @return string
+     */
+    public static function arrayToHtmlList(array $arr, array $options = []): string
+    {
+        $listType = $options['listType'] ?? "ul";
+        $s = "<$listType>";
+        foreach ($arr as $v) {
+            $s .= '<li>' . $v . '</li>';
+        }
+        $s .= "</$listType>";
+        return $s;
+    }
 }

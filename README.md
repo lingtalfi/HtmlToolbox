@@ -1,6 +1,6 @@
 HtmlToolbox
 ===========
-2021-07-01
+2021-07-01 -> 2021-08-10
 
 
 
@@ -42,6 +42,10 @@ Summary
 History Log
 =============
 
+- 1.0.1 -- 2021-08-10
+
+    - add HtmlTool::arrayToHtmlList method
+  
 - 1.0.0 -- 2021-07-01
 
     - initial commit

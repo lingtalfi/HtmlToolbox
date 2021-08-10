@@ -64,5 +64,5 @@ See Also
 
 The [HtmlTool](https://github.com/lingtalfi/HtmlToolbox/blob/master/doc/api/Ling/HtmlToolbox/HtmlTool.md) class.
 
-
+Next method: [arrayToHtmlList](https://github.com/lingtalfi/HtmlToolbox/blob/master/doc/api/Ling/HtmlToolbox/HtmlTool/arrayToHtmlList.md)<br>
 
